@@ -4,12 +4,15 @@ public class read_a_number {
 		Scanner in = new Scanner(System.in);
 		
 		System.out.print("Please enter your name: ");
+		in.NextLine();
 		String name = in.nextLine();
 		
 		System.out.print("Please enter your age: ");
+		in.NextLine();
 		int age = in.nextInt();
 		
 		System.out.print("Please enter your mobile number: ");
+		in.NextLine();
 		String m_num = in.nextLine();
 
 		System.out.println("User name: " + name);

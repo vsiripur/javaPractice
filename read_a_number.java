@@ -11,5 +11,8 @@ public class read_a_number {
 		System.out.print("User name: " + name);
 		System.out.print("User age: " + age);
 		System.out.print("User mobile number: " + num);
+		System.out.print("Please enter a number: ");
+		int num = in.nextInt();
+		System.out.println("The number you've entered is: " + num);
 	}
 }

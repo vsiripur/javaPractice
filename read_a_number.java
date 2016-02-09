@@ -1,22 +1,27 @@
 import java.util.Scanner;
-public class read_a_number {
-	public static void main(String[] args) {
-		Scanner in = new Scanner(System.in);
-		
-		System.out.print("Please enter your name: ");
-		in.nextLine();
-		String name = in.nextLine();
-		
-		System.out.print("Please enter your age: ");
-		in.nextLine();
-		int age = in.nextInt();
-		
-		System.out.print("Please enter your mobile number: ");
-		in.nextLine();
-		String m_num = in.nextLine();
+class read_a_number
+{
+	public static void main(String args[])
+	{
+		int num;
+		float fnum;
+		String str;
 
-		System.out.println("User name: " + name);
-		System.out.println("User age: " + age);
-		System.out.println("User mobile number: " + m_num);
+		Scanner in = new Scanner(System.in);
+
+		//Get input String
+		System.out.print("Enter a string: ");
+		str = in.nextLine();
+		System.out.println("Input String is: "+str);
+
+		//Get input Integer
+		System.out.print("Enter an integer: ");
+		num = in.nextInt();
+		System.out.println("Input Integer is: "+num);
+
+		//Get input float number
+		System.out.print("Enter a float number: ");
+		fnum = in.nextFloat();
+		System.out.println("Input Float number is: "+fnum);
 	}
 }
